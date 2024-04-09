@@ -1,0 +1,9 @@
+{
+    "reranker": {
+		"file_name": "reranker.json",
+		"columns": {
+			"prompt": "prompt",
+			"response": "response"
+		}
+	}
+}

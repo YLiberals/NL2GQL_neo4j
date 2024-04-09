@@ -2,7 +2,7 @@
 Author       : Zhijie Yang
 Date         : 2024-04-04 22:26:24
 LastEditors  : Zhijie Yang
-LastEditTime : 2024-04-05 22:20:20
+LastEditTime : 2024-04-09 21:16:14
 FilePath     : /NL2GQL/Smaller_LLM.py
 Description  : 
 
@@ -48,7 +48,7 @@ class SMALLER_LLM:
 
     def chat_with_api(self, text):
         # Set the OpenAI API base and key for remote deployment
-        openai.api_base = "http://xxxx:8000/v1"  # Replace with your service's IP
+        openai.api_base = "http://localhost:8000/v1"  # Replace with your service's IP
         openai.api_key = "xxxx"  # Fill in your API key here
 
         # Create a ChatCompletion request with the user's text

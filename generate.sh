@@ -1,0 +1,1 @@
+nohup python generate_smaller_llm_data.py > generate_smaller_llm_data.log 2>&1 &
