@@ -7,7 +7,7 @@ CUDA_VISIBLE_DEVICES=0 nohup python train_model_script/train_bash.py \
     --flash_attn False \
     --shift_attn False \
     --dataset_dir data \
-    --dataset with_metadata_multi_hop,ner \
+    --dataset reranker \
     --cutoff_len 1024 \
     --learning_rate 5e-05 \
     --num_train_epochs 3.0 \
